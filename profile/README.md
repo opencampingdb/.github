@@ -2,19 +2,19 @@
 
 # Open Camping DB
 
-A free, open list of places to camp and stop in Australia: campgrounds, free camps, caravan parks, rest areas, dump points, water, toilets, lookouts, swimming spots and the services travellers need on the road.
+A free, open list of places to camp and stop in Australia: campgrounds, free camps, caravan parks, hostels and motels, rest areas, dump points, water, toilets, long vehicle parking, lookouts, swimming spots, pubs, museums and the services travellers need on the road. Each place can carry its site features, from campfires and big rig access to phone signal and crocodile warnings.
 
 It is built each night from [OpenStreetMap](https://www.openstreetmap.org) and improved by reports, reviews and checks from the apps that use it, and by the owners of the places themselves. Anyone may use it, including in a commercial app, under the [Open Database Licence (ODbL 1.0)](https://opendatacommons.org/licenses/odbl/1-0/).
 
 ## Use the data
 
 - **Download:** start from the [latest manifest](https://github.com/opencampingdb/data/releases/latest/download/manifest.json). It points to `places.ndjson.gz`, one place per line, with a checksum for each file. The whole of Australia is about 3 MB.
-- **Fields and kinds:** [CONNECTING.md](https://github.com/opencampingdb/data/blob/main/CONNECTING.md) explains each field, the 25 kinds of place and how to keep a copy up to date.
+- **Fields and kinds:** [CONNECTING.md](https://github.com/opencampingdb/data/blob/main/CONNECTING.md) explains each field, the 32 kinds of place, the site features and how to keep a copy up to date.
 - **Credit:** show "© OpenStreetMap contributors, Open Camping DB" wherever the data appears.
 
 ## Send feedback from your app
 
-The [feedback engine](https://github.com/opencampingdb/feedback-engine) is a small SDK for reports, reviews and checks. It queues them offline and sends them to the intake. Agreed changes reach the data as reviewed pull requests, under fixed quality rules. For example, a changed fact needs two independent reports. Ask for an app key at dev@example.org.
+The [feedback engine](https://github.com/opencampingdb/feedback-engine) is a small SDK for reports, reviews, checks and fees, including corrections to a place's name, description and kind. It queues them offline and sends them to the intake. Agreed changes reach the data as reviewed pull requests, under fixed quality rules. For example, a changed fact needs two independent reports. Ask for an app key at dev@example.org.
 
 ## Owners
 
