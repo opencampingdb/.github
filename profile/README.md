@@ -14,7 +14,7 @@ It is built each night from [OpenStreetMap](https://www.openstreetmap.org) and i
 
 ## Send feedback from your app
 
-The [feedback engine](https://github.com/opencampingdb/feedback-engine) is a small SDK for reports, reviews, checks and fees, including corrections to a place's name, description and kind. It queues them offline and sends them to the intake. Agreed changes reach the data as reviewed pull requests, under fixed quality rules. For example, a changed fact needs two independent reports. Ask for an app key at dev@example.org.
+The [feedback engine](https://github.com/opencampingdb/feedback-engine) is a small SDK for reports, reviews, checks and fees, including corrections to a place's name, description and kind. It queues them offline and sends them to the intake. Agreed changes reach the data as reviewed pull requests, under fixed quality rules. For example, a changed fact needs two independent reports. Ask for an app key with the App key form in [feedback-engine](https://github.com/opencampingdb/feedback-engine/issues/new/choose).
 
 ## Owners
 
