@@ -14,7 +14,7 @@ It is built each night from [OpenStreetMap](https://www.openstreetmap.org) and i
 
 ## Send feedback from your app
 
-The [feedback engine](https://github.com/opencampingdb/feedback-engine) is a small SDK for reports, reviews, checks and fees, including corrections to a place's name, description and kind. It queues them offline and sends them to the intake. Agreed changes reach the data as reviewed pull requests, under fixed quality rules. For example, a changed fact needs two independent reports. Ask for an app key at dev@example.org.
+The [feedback engine](https://github.com/opencampingdb/feedback-engine) is a small SDK for reports, reviews, checks and fees, including corrections to a place's name, description and kind. It queues them offline and sends them to the intake. Agreed changes reach the data as reviewed pull requests, under fixed quality rules. For example, a changed fact needs two independent reports. Ask for an app key with the App key form in [feedback-engine](https://github.com/opencampingdb/feedback-engine/issues/new/choose).
 
 ## Owners
 
@@ -28,4 +28,4 @@ If you run a campground or caravan park, you can [claim your place](https://open
 | [feedback-engine](https://github.com/opencampingdb/feedback-engine) | SDK, intake and the rules that turn feedback into changes (Apache 2.0) |
 | [opencampingdb.github.io](https://github.com/opencampingdb/opencampingdb.github.io) | The owner pages |
 
-Questions, corrections and takedown requests: abuse@example.org.
+Questions and corrections: open an issue in [data](https://github.com/opencampingdb/data/issues/new/choose). Takedown requests: the Takedown form there. Security problems and anything private: **Report a vulnerability** on the repository's Security tab. App keys: the App key form in [feedback-engine](https://github.com/opencampingdb/feedback-engine/issues/new/choose).
