@@ -28,4 +28,4 @@ If you run a campground or caravan park, you can [claim your place](https://open
 | [feedback-engine](https://github.com/opencampingdb/feedback-engine) | SDK, intake and the rules that turn feedback into changes (Apache 2.0) |
 | [opencampingdb.github.io](https://github.com/opencampingdb/opencampingdb.github.io) | The owner pages |
 
-Questions, corrections and takedown requests: abuse@camporacle.com.au.
+Questions and corrections: open an issue in [data](https://github.com/opencampingdb/data/issues/new/choose). Takedown requests: the Takedown form there. Security problems and anything private: **Report a vulnerability** on the repository's Security tab. App keys: the App key form in [feedback-engine](https://github.com/opencampingdb/feedback-engine/issues/new/choose).
