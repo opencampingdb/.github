@@ -30,7 +30,7 @@ Ask for an app key with the **App key** form in [feedback-engine](https://github
 
 ## Owners
 
-If you run a campground or caravan park, you can [claim your place](https://opencampingdb.github.io/owners/claim.html) and keep its details right. You put a short code on your own website or public Facebook page, and a person approves the claim before anything is published. Owners of farms, stations and wineries can [list their private property](https://opencampingdb.github.io/owners/list.html), which apps show as private land to book with the owner first. It's free, and guests book directly with you.
+If you run a campground or caravan park, you can [claim your place](https://opencampingdb.github.io/owners/claim.html) and keep its details right. You put a short code on your own website or public Facebook page, and a person approves the claim before anything is published. Owners of farms, stations and wineries can [list their private property](https://opencampingdb.github.io/owners/list.html), which apps show as private land to book with the owner first. It's free, with no commission, and guests book directly with you.
 
 ## Repositories
 
