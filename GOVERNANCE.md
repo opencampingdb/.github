@@ -24,15 +24,15 @@ These are never delegated, at any role:
 - Deploys of the feedback intake and any other service
 - The private `inbox` repository, which holds contributor and owner personal details
 - OpenStreetMap and MapRoulette accounts, challenges and their settings. Any change there follows the [Automated Edits code of conduct](https://wiki.openstreetmap.org/wiki/Automated_Edits_code_of_conduct), and the project never edits OpenStreetMap itself.
-- Changes to `.github/`, workflows, `CODEOWNERS` and deploy configuration, which `CODEOWNERS` routes to the project lead for review
+- Changes to `.github/`, workflows, `CODEOWNERS`, deploy configuration, licences, package manifests and lockfiles, and the moderation lists. Each repository's `CODEOWNERS` names the project lead as the owner of these files
 
 The organisation keeps one recovery owner besides the project lead, for continuity only. The recovery owner does not use the account for day-to-day work.
 
 ## How decisions are made
 
-Most decisions happen on the pull request or issue concerned. A change is merged when a maintainer of that repository (or the project lead) approves it, its checks pass, and nobody with a role on that repository has an open objection.
+Most decisions happen on the pull request or issue concerned. A change is merged when a maintainer of that repository (or the project lead) approves it, its checks pass, and nobody with a role on that repository has an open objection. The exceptions are the bot pull requests in `data` that hold only automatic changes: the nightly OpenStreetMap sync, when it changes fewer than 2% of records, and `feedback/auto`. They merge themselves once their checks pass. Everything the feedback rules leave to a person goes to the `feedback/review` pull request.
 
-Changes to the data format, the quality rules, the feedback contract (`SPEC.md`) or anything apps download are announced in an issue at least seven days before they are merged, so app developers can comment.
+Changes to the data format, the quality rules, the feedback contract (the intake's API and the SDK) or anything apps download are announced in an issue at least seven days before they are merged, so app developers can comment.
 
 When people disagree and can't settle it on the issue, the project lead decides, and says why on the issue.
 
@@ -40,9 +40,9 @@ When people disagree and can't settle it on the issue, the project lead decides,
 
 - Every member of the organisation uses two-factor authentication.
 - Helpers are added as outside collaborators on single repositories, not as organisation members.
-- The default branch of every repository is protected: pull requests only, a required review, required checks, signed commits and no force pushes.
+- The default branch of every public repository is protected: pull requests only, a required review, required checks, signed commits and no force pushes.
 - Workflows from first-time contributors' pull requests wait for a maintainer's approval before they run.
-- Report a security problem privately, with **Report a vulnerability** on the repository's Security tab, never in a public issue. See each repository's `SECURITY.md`.
+- Report a security problem privately, with **Report a vulnerability** on the repository's Security tab, never in a public issue. [SECURITY.md](https://github.com/opencampingdb/feedback-engine/blob/main/SECURITY.md) in feedback-engine describes how the feedback intake protects contributors and owners.
 
 ## Stepping back and removal
 
